@@ -1,0 +1,46 @@
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Virtual environments ────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDE / editor ────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Secrets ─────────────────────────────────────────────────────────
+.env
+.env.local
+*.pem
+*.key
+
+# ── Runtime artifacts ───────────────────────────────────────────────
+# SQLite DBs the notifier may create at runtime — don't ship test data.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Report output folder — generated per-run, not source.
+reports/*.md
+
+# ── OS cruft ────────────────────────────────────────────────────────
+desktop.ini
