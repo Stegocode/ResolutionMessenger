@@ -158,7 +158,7 @@ UNPAID_TEMPLATE_CC: tuple[str, ...] = _csv_env("UNPAID_TEMPLATE_CC")
 SUPPLY_TEMPLATE_CC: tuple[str, ...] = _csv_env("SUPPLY_TEMPLATE_CC")
 
 # Domain used when deriving an email from a person's name
-# (e.g., "Rob Kinman" -> "robk@example.com").
+# (e.g., "Rob Robertson" -> "robr@example.com").
 RECIPIENT_DOMAIN = os.getenv("RECIPIENT_DOMAIN", "example.com")
 
 
